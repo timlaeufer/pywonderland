@@ -135,7 +135,7 @@ class Fractal3D(pyglet.window.Window):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-size", metavar="s", type=str,
-                        default="800x480", help="window size in pixels")
+                        default="1650x1050", help="window size in pixels")
     parser.add_argument("-aa", type=int, default=4,
                         help="antialiasing depth")
     args = parser.parse_args()
